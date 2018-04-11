@@ -1,0 +1,6 @@
+[package]
+name = "rs-prettycli"
+version = "0.1.0"
+authors = ["cg-cnu <sreenivas9alapati@gmail.com>"]
+
+[dependencies]
