@@ -2,5 +2,7 @@
 name = "rs-prettycli"
 version = "0.1.0"
 authors = ["cg-cnu <sreenivas9alapati@gmail.com>"]
+description = "dummy test for publishing to cargo"
+license = "MIT"
 
 [dependencies]
