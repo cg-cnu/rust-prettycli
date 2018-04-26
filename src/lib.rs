@@ -19,13 +19,13 @@ pub fn critical(message: &str) {
 }
 
 pub fn command(message: &str) {
-    println!("⚡  \x1B[1;35mCMD :\x1B[0m \x1B[35m{}\x1B[0m", message);
+    println!("⚡  \x1B[1;36mCMD :\x1B[0m \x1B[36m{}\x1B[0m", message);
 }
 
 pub fn link(message: &str) {
-    println!("🔗  \x1B[4;34mLINK :\x1B[0m \x1B[4;34m{}\x1B[0m", message);
+    println!("🔗  \x1B[1;34mLINK :\x1B[0m \x1B[4;34m{}\x1B[0m", message);
 }
 
-pub fn ignore(message: &str) {
-    println!("😴  \x1B[2;37mIgnore \x1B[2;37m{}\x1B[0m", message);
+pub fn misc(message: &str) {
+    println!("😴  \x1B[2;37mMISC :\x1B[2;37m{}\x1B[0m", message);
 }
