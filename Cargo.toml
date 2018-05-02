@@ -4,5 +4,9 @@ version = "0.1.1"
 authors = ["cg-cnu <sreenivas9alapati@gmail.com>"]
 description = "Pretty print stuff to CLI"
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/cg-cnu/prettycli"
+homepage = "https://github.com/cg-cnu/prettycli"
+documentation = "https://docs.rs/prettycli"
 
 [dependencies]
